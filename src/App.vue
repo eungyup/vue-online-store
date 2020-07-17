@@ -5,7 +5,7 @@
       <div class="flex-col--2 nav-items">
         <router-link to="/" class="nav-items__item">Home</router-link>
         <!-- Added at Part 6 -->
-        <router-link 
+        <router-link
           :to="{ name: 'gender-overview', params: { gender: 'women'}}" 
           class="nav-items__item">Women</router-link>
           <!-- Added at Part 6 -->
